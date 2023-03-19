@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/about": "pages/about.html",
+  "/_document": "pages/_document.js",
+  "/api/hello": "pages/api/hello.js",
+  "/cheeks": "pages/cheeks.html",
+  "/contacts": "pages/contacts.html",
+  "/ampoule": "pages/ampoule.html",
+  "/eyes-and-smile-lines": "pages/eyes-and-smile-lines.html",
+  "/": "pages/index.html",
+  "/forhead-and-neck": "pages/forhead-and-neck.html",
+  "/terms-and-conditions": "pages/terms-and-conditions.html",
+  "/products": "pages/products.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
