@@ -195,6 +195,7 @@
 
   .phoneLink {
     left: auto;
+    top: 32px;
     right: 30px;
   }
 }
@@ -203,5 +204,22 @@
   .gallery,
   .productDetails {
     width: 100%;
+  }
+
+  .phoneLink {
+    right: 10px;
+    font-size: 12px;
+  }
+
+  .phoneLink img {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .phoneLink {
+    display: none;
   }
 }
