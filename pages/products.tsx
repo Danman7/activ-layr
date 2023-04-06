@@ -70,6 +70,18 @@ export default function ForheadAndNeckPage() {
               </div>
             </Link>
           </div>
+
+          <div className={styles.product}>
+            <Link href="combo">
+              <img src="/full-face-BG.jpg" alt="full face" />
+
+              <div className={styles.productDescription}>
+                <h3>Activ Layr</h3>
+                <p>Интензивна терапия (цяло лице)</p>
+                <div className={styles.price}>530 лв.</div>
+              </div>
+            </Link>
+          </div>
         </div>
       </main>
     </Layout>

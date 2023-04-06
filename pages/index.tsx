@@ -20,7 +20,7 @@ export default function Home() {
         <iframe
           width="100%"
           height={750}
-          src="https://www.youtube.com/embed/uDl14AijYh8?rel=0&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=uDl14AijYh8"
+          src="https://www.youtube.com/embed/N0vuz_TxlGs?rel=0&amp;autoplay=1&amp;mute=1&amp;loop=1"
           title="Masca Premium Collagen ActivLayr"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

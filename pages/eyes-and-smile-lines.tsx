@@ -260,7 +260,7 @@ export default function EyesAndSmileLinePage() {
                   <AccordionItemButton>Състав</AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                  <p>Колаген, хидролизиран колаген, натриев хиалуронат.</p>
+                  <p>Колаген, хидролизиран колаген, хиалуронова киселина.</p>
                 </AccordionItemPanel>
               </AccordionItem>
             </Accordion>

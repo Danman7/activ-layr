@@ -13,15 +13,13 @@ import Layout from "@/components/layout";
 import styles from "@/styles/Shared.module.css";
 import Thumb from "@/components/Thumb";
 
-export default function CheeksPage() {
-  const [currentImage, setCurrentImage] = useState("/product-cheeks.jpg");
+export default function ComboPage() {
+  const [currentImage, setCurrentImage] = useState("/full-face-BG.jpg");
 
   return (
     <Layout>
       <Head>
-        <title>
-          ActivLayr Premium Intensive Collagen Film (Лице, 4 двойни комплекта)
-        </title>
+        <title>ActivLayr Интензивна терапия (цяло лице) - заглавие</title>
       </Head>
 
       <main>
@@ -29,25 +27,13 @@ export default function CheeksPage() {
           <div className={styles.gallery}>
             <div className={styles.galleryThumbs}>
               <Thumb
-                url="/product-cheeks.jpg"
+                url="/full-face-BG.jpg"
                 currentImage={currentImage}
                 setCurrentImage={setCurrentImage}
               />
 
               <Thumb
-                url="/cheeks/product-img_cheeck-01.png.webp"
-                currentImage={currentImage}
-                setCurrentImage={setCurrentImage}
-              />
-
-              <Thumb
-                url="/cheeks/product-img_cheeck-02.jpg.webp"
-                currentImage={currentImage}
-                setCurrentImage={setCurrentImage}
-              />
-
-              <Thumb
-                url="/cheeks/product-img_cheeck-03.png.webp"
+                url="/full_face_image_v2.jpg"
                 currentImage={currentImage}
                 setCurrentImage={setCurrentImage}
               />
@@ -56,12 +42,8 @@ export default function CheeksPage() {
             <img className={styles.currentImage} src={currentImage}></img>
           </div>
           <div className={styles.productDetails}>
-            <h1>
-              ActivLayr Premium Intensive Collagen Film (Лице, 4 двойни
-              комплекта)
-            </h1>
-            <p>Висок клас колагенова маска за лице</p>
-            <div className={styles.price}>100 лв</div>
+            <h1>Интензивна терапия (цяло лице) - заглавие</h1>
+            <div className={styles.price}>530 лв.</div>
             <Accordion preExpanded={[1]}>
               <AccordionItem uuid={1}>
                 <AccordionItemHeading>
