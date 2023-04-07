@@ -19,7 +19,7 @@ export default function ComboPage() {
   return (
     <Layout>
       <Head>
-        <title>ActivLayr Интензивна терапия (цяло лице) - заглавие</title>
+        <title>ActivLayr Интензивна терапия (цяло лице)</title>
       </Head>
 
       <main>
@@ -42,7 +42,7 @@ export default function ComboPage() {
             <img className={styles.currentImage} src={currentImage}></img>
           </div>
           <div className={styles.productDetails}>
-            <h1>Интензивна терапия (цяло лице) - заглавие</h1>
+            <h1>Интензивна терапия (цяло лице)</h1>
             <div className={styles.price}>530 лв.</div>
             <Accordion preExpanded={[1]}>
               <AccordionItem uuid={1}>
@@ -163,6 +163,16 @@ export default function ComboPage() {
                   <a className={styles.pdfLink} href="/HowtoUseActivLayr.pdf">
                     HowtoUseActivLayr
                   </a>
+
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/N0vuz_TxlGs"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
                 </AccordionItemPanel>
               </AccordionItem>
 

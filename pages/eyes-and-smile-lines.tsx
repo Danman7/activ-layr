@@ -187,6 +187,16 @@ export default function EyesAndSmileLinePage() {
                   <a className={styles.pdfLink} href="/HowtoUseActivLayr.pdf">
                     HowtoUseActivLayr
                   </a>
+
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/N0vuz_TxlGs"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
                 </AccordionItemPanel>
               </AccordionItem>
 
